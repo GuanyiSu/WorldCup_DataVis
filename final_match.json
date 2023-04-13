@@ -1,0 +1,128 @@
+{	
+	"nodes": [
+    	{ "Label": "Emi Martinez" , "ID": 1, "Alliance": "Argentina"},
+    	{ "Label": "Franco Armani" , "ID": 2, "Alliance": "Argentina"},
+    	{ "Label": "Geronimo Rulli" , "ID": 3, "Alliance": "Argentina"},
+    	{ "Label": "Marcos Acuna" , "ID": 4, "Alliance": "Argentina"},
+    	{ "Label": "Juan Foyth" , "ID": 5, "Alliance": "Argentina"},
+    	{ "Label": "Lisandro Martinez" , "ID": 6, "Alliance": "Argentina"},
+    	{ "Label": "Nicolas Tagliafico" , "ID": 7, "Alliance": "Argentina"},
+    	{ "Label": "Cristian Romero" , "ID": 8, "Alliance": "Argentina"},
+    	{ "Label": "Nicolas Otamendi" , "ID": 9, "Alliance": "Argentina"},
+    	{ "Label": "Nahuel Molina" , "ID": 10, "Alliance": "Argentina"},
+    	{ "Label": "Gonzalo Montiel" , "ID": 11, "Alliance": "Argentina"},
+    	{ "Label": "German Pezzella" , "ID": 12, "Alliance": "Argentina"},
+    	{ "Label": "Angel Di Maria" , "ID": 13, "Alliance": "Argentina"},
+    	{ "Label": "Leandro Paredes" , "ID": 14, "Alliance": "Argentina"},
+    	{ "Label": "Rodrigo De Paul" , "ID": 15, "Alliance": "Argentina"},
+    	{ "Label": "Alexis Mac Allister" , "ID": 16, "Alliance": "Argentina"},
+    	{ "Label": "Enzo Fernandez" , "ID": 17, "Alliance": "Argentina"},
+    	{ "Label": "Lionel Messi" , "ID": 18, "Alliance": "Argentina"},
+    	{ "Label": "Lautaro Martinez" , "ID": 19, "Alliance": "Argentina"},
+        { "Label": "Paulo Dybala" , "ID": 20, "Alliance": "Argentina"},
+        { "Label": "Angel Correa" , "ID": 21, "Alliance": "Argentina"},
+        { "Label": "Julian Alvarez" , "ID": 22, "Alliance": "Argentina"},
+        { "Label": "Alejandro Gomez" , "ID": 23, "Alliance": "Argentina"},
+
+        { "Label": "Hugo Lloris" , "ID": 24, "Alliance": "France"},
+        { "Label": "Benjamin Pavard" , "ID": 25, "Alliance": "France"},
+        { "Label": "Jules Kounde" , "ID": 26, "Alliance": "France"},
+        { "Label": "Raphael Varane" , "ID": 27, "Alliance": "France"},
+        { "Label": "Theo Hernandez" , "ID": 28, "Alliance": "France"},
+        { "Label": "Lucas Hernandez" , "ID": 29, "Alliance": "France"},
+        { "Label": "Ferland Mendy" , "ID": 30, "Alliance": "France"},
+        { "Label": "Dayot Upamecano" , "ID": 31, "Alliance": "France"},
+        { "Label": "Ibrahima Konate" , "ID": 32, "Alliance": "France"},
+        { "Label": "William Saliba" , "ID": 33, "Alliance": "France"},
+        { "Label": "Eduardo Camavingaz" , "ID": 34, "Alliance": "France"},
+        { "Label": "Aurelien Tchouameni" , "ID": 35, "Alliance": "France"},
+        { "Label": "Ousmane Dembele" , "ID": 36, "Alliance": "France"},
+        { "Label": "Olivier Giroud" , "ID": 37, "Alliance": "France"},
+        { "Label": "Antoine Griezmann" , "ID": 38, "Alliance": "France"},
+        { "Label": "Kylian Mbappe" , "ID": 39, "Alliance": "France"},
+        { "Label": "Randal Kolo Muani" , "ID": 40, "Alliance": "France"},
+        { "Label": "Kingsley Coman" , "ID": 41, "Alliance": "France"},
+        { "Label": "Youssouf Fofana" , "ID": 42, "Alliance": "France"},
+        { "Label": "Matteo Guendouzi" , "ID": 43, "Alliance": "France"}
+	],
+
+    "edges": [
+		{"source": 1, "target": 24, "Relationship": "premier league"}, 
+		{"source": 1, "target": 27, "Relationship": "premier league"},
+		{"source": 1, "target": 32, "Relationship": "premier league"},
+
+		{"source": 3, "target": 34, "Relationship": "La Liga"},
+		{"source": 3, "target": 36, "Relationship": "La Liga"},
+		{"source": 3, "target": 38, "Relationship": "La Liga"},
+        {"source": 3, "target": 32, "Relationship": "La Liga"},
+
+        {"source": 4, "target": 34, "Relationship": "La Liga"},
+		{"source": 4, "target": 36, "Relationship": "La Liga"},
+		{"source": 4, "target": 38, "Relationship": "La Liga"},
+        {"source": 4, "target": 32, "Relationship": "La Liga"},
+
+        {"source": 5, "target": 34, "Relationship": "La Liga"},
+		{"source": 5, "target": 36, "Relationship": "La Liga"},
+		{"source": 5, "target": 38, "Relationship": "La Liga"},
+        {"source": 5, "target": 32, "Relationship": "La Liga"},
+
+        {"source": 6, "target": 24, "Relationship": "premier league"}, 
+		{"source": 6, "target": 27, "Relationship": "premier league"},
+		{"source": 6, "target": 32, "Relationship": "premier league"},
+
+        {"source": 8, "target": 24, "Relationship": "premier league"}, 
+		{"source": 8, "target": 27, "Relationship": "premier league"},
+		{"source": 8, "target": 32, "Relationship": "premier league"},
+
+        {"source": 10, "target": 34, "Relationship": "La Liga"},
+		{"source": 10, "target": 36, "Relationship": "La Liga"},
+		{"source": 10, "target": 38, "Relationship": "La Liga"},
+        {"source": 10, "target": 32, "Relationship": "La Liga"},
+
+        {"source": 11, "target": 34, "Relationship": "La Liga"},
+		{"source": 11, "target": 36, "Relationship": "La Liga"},
+		{"source": 11, "target": 38, "Relationship": "La Liga"},
+        {"source": 11, "target": 32, "Relationship": "La Liga"},
+
+        {"source": 12, "target": 34, "Relationship": "La Liga"},
+		{"source": 12, "target": 36, "Relationship": "La Liga"},
+		{"source": 12, "target": 38, "Relationship": "La Liga"},
+        {"source": 12, "target": 32, "Relationship": "La Liga"},
+
+        {"source": 13, "target": 28, "Relationship": "Serie A"},
+        {"source": 13, "target": 37, "Relationship": "Serie A"},
+
+        {"source": 14, "target": 28, "Relationship": "Serie A"},
+        {"source": 14, "target": 37, "Relationship": "Serie A"},
+
+        {"source": 15, "target": 34, "Relationship": "La Liga"},
+		{"source": 15, "target": 36, "Relationship": "La Liga"},
+		{"source": 15, "target": 38, "Relationship": "La Liga"},
+        {"source": 15, "target": 32, "Relationship": "La Liga"},
+
+        {"source": 16, "target": 34, "Relationship": "La Liga"},
+		{"source": 16, "target": 36, "Relationship": "La Liga"},
+		{"source": 16, "target": 38, "Relationship": "La Liga"},
+        {"source": 16, "target": 32, "Relationship": "La Liga"},
+
+        {"source": 20, "target": 28, "Relationship": "Serie A"},
+        {"source": 20, "target": 37, "Relationship": "Serie A"},
+
+        {"source": 21, "target": 28, "Relationship": "Serie A"},
+        {"source": 21, "target": 37, "Relationship": "Serie A"},
+
+        {"source": 22, "target": 28, "Relationship": "Serie A"},
+        {"source": 22, "target": 37, "Relationship": "Serie A"},
+
+        {"source": 23, "target": 24, "Relationship": "premier league"}, 
+		{"source": 23, "target": 27, "Relationship": "premier league"},
+		{"source": 23, "target": 32, "Relationship": "premier league"},
+
+        {"source": 18, "target": 42, "Relationship": "Ligue 1"},
+        {"source": 18, "target": 43, "Relationship": "Ligue 1"},
+        {"source": 18, "target": 39, "Relationship": "Ligue 1"}
+
+
+        
+	]
+}
